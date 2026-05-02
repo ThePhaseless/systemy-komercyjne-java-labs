@@ -19,3 +19,9 @@
 
 # Windows metadata sidecars copied into WSL
 *:Zone.Identifier
+
+# Local Taskplane and source materials not meant for publishing
+.pi/
+taskplane-tasks/
+Laboratoria 1.docx
+Laboratoria 2.docx
