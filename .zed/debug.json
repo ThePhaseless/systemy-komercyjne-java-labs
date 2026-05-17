@@ -10,7 +10,16 @@
         "adapter": "Java",
         "label": "lab2",
         "request": "launch",
-        "mainClass": "com.sggw.lab2.Main",
-        "classPaths": ["$Auto"]
+        "mainClass": "com.sggw.lab2.Lab2SpringApiApplication",
+        "projectName": "lab2-spring-api",
+        "cwd": "$ZED_WORKTREE_ROOT/lab2-spring-api",
+        "build": {
+            "command": "mvn",
+            "args": ["compile"],
+            "cwd": "$ZED_WORKTREE_ROOT/lab2-spring-api",
+            "reveal": "no_focus",
+            "hide": "on_success",
+            "save": "all"
+        }
     }
 ]
