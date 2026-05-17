@@ -1,19 +1,21 @@
 package com.sggw.lab1;
 
-import javax.imageio.ImageIO;
-import javax.swing.JFrame;
 import java.awt.Image;
 import java.io.IOException;
 import java.io.InputStream;
+import javax.imageio.ImageIO;
+import javax.swing.JFrame;
 
 public class StudentApp extends JFrame implements Runnable {
+
     @Override
     public void run() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setTitle("Student App - Tic Tac Toe");
+        setTitle("s223281");
         setSize(900, 700);
         setResizable(false);
-        setLocationRelativeTo(null);
+        setAlwaysOnTop(true);
+        setLocation(300, 0);
 
         Image icon = loadImage("/images/icon.png");
         if (icon != null) {

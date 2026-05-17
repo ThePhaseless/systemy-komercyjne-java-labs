@@ -1,0 +1,16 @@
+[
+    {
+        "adapter": "Java",
+        "label": "lab1",
+        "request": "launch",
+        "mainClass": "com.sggw.lab1.Main",
+        "classPaths": ["$Auto"]
+    },
+    {
+        "adapter": "Java",
+        "label": "lab2",
+        "request": "launch",
+        "mainClass": "com.sggw.lab2.Main",
+        "classPaths": ["$Auto"]
+    }
+]

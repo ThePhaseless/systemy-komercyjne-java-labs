@@ -1,4 +1,24 @@
 [tools]
-java = "latest"
+java = "21"
 maven = "latest"
 pre-commit = "latest"
+
+[tasks."lab1:run"]
+description = "Run lab1 Swing Tic-Tac-Toe"
+dir = "{{config_root}}/lab1-swing-tictactoe"
+run = "mvn compile exec:java -Dexec.mainClass=com.sggw.lab1.Main"
+
+[tasks."lab1:build"]
+description = "Build lab1 Swing Tic-Tac-Toe"
+dir = "{{config_root}}/lab1-swing-tictactoe"
+run = "mvn package"
+
+[tasks."lab2:run"]
+description = "Run lab2 Spring API"
+dir = "{{config_root}}/lab2-spring-api"
+run = "mvn spring-boot:run"
+
+[tasks."lab2:build"]
+description = "Build lab2 Spring API"
+dir = "{{config_root}}/lab2-spring-api"
+run = "mvn package"
